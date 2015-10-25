@@ -1,0 +1,105 @@
+---
+title: "Code_Book.md"
+author: "G. Ozanne"
+date: "25 octobre 2015"
+---
+---
+
+
+## Getting & Cleaning Data
+### Course project  
+
+- **Subject_ID** : ID of each volunteers within an age bracket of 19-48 years old. Unique values from 1 to 30.
+- **Activity** : Type of activity
+    - 1 : WALKING  
+    - 2 : WALKING_UPSTAIRS  
+    - 3 : WALKING_DOWNSTAIRS  
+    - 4 : SITTING  
+    - 5 : STANDING  
+    - 6 : LAYING  <br/>
+- **tBodyAcc-mean()-X** : Average value by **Subject_ID** and **Activity** on *tBodyAcc-mean()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyAcc-mean()-Y** : Average value by **Subject_ID** and **Activity** on *tBodyAcc-mean()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyAcc-mean()-Z** : Average value by **Subject_ID** and **Activity** on *tBodyAcc-mean()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyAcc-std()-X** : Average value by **Subject_ID** and **Activity** on *tBodyAcc-std()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyAcc-std()-Y** : Average value by **Subject_ID** and **Activity** on *tBodyAcc-std()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyAcc-std()-Z** : Average value by **Subject_ID** and **Activity** on *tBodyAcc-std()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **tGravityAcc-mean()-X** : Average value by **Subject_ID** and **Activity** on *tGravityAcc-mean()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **tGravityAcc-mean()-Y** : Average value by **Subject_ID** and **Activity** on *tGravityAcc-mean()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **tGravityAcc-mean()-Z** : Average value by **Subject_ID** and **Activity** on *tGravityAcc-mean()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **tGravityAcc-std()-X** : Average value by **Subject_ID** and **Activity** on *tGravityAcc-std()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **tGravityAcc-std()-Y** : Average value by **Subject_ID** and **Activity** on *tGravityAcc-std()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **tGravityAcc-std()-Z** : Average value by **Subject_ID** and **Activity** on *tGravityAcc-std()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyAccJerk-mean()-X** : Average value by **Subject_ID** and **Activity** on *tBodyAccJerk-mean()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyAccJerk-mean()-Y** : Average value by **Subject_ID** and **Activity** on *tBodyAccJerk-mean()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyAccJerk-mean()-Z** : Average value by **Subject_ID** and **Activity** on *tBodyAccJerk-mean()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyAccJerk-std()-X** : Average value by **Subject_ID** and **Activity** on *tBodyAccJerk-std()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyAccJerk-std()-Y** : Average value by **Subject_ID** and **Activity** on *tBodyAccJerk-std()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyAccJerk-std()-Z** : Average value by **Subject_ID** and **Activity** on *tBodyAccJerk-std()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyro-mean()-X** : Average value by **Subject_ID** and **Activity** on *tBodyGyro-mean()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyro-mean()-Y** : Average value by **Subject_ID** and **Activity** on *tBodyGyro-mean()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyro-mean()-Z** : Average value by **Subject_ID** and **Activity** on *tBodyGyro-mean()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyro-std()-X** : Average value by **Subject_ID** and **Activity** on *tBodyGyro-std()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyro-std()-Y** : Average value by **Subject_ID** and **Activity** on *tBodyGyro-std()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyro-std()-Z** : Average value by **Subject_ID** and **Activity** on *tBodyGyro-std()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyroJerk-mean()-X** : Average value by **Subject_ID** and **Activity** on *tBodyGyroJerk-mean()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyroJerk-mean()-Y** : Average value by **Subject_ID** and **Activity** on *tBodyGyroJerk-mean()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyroJerk-mean()-Z** : Average value by **Subject_ID** and **Activity** on *tBodyGyroJerk-mean()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyroJerk-std()-X** : Average value by **Subject_ID** and **Activity** on *tBodyGyroJerk-std()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyroJerk-std()-Y** : Average value by **Subject_ID** and **Activity** on *tBodyGyroJerk-std()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyroJerk-std()-Z** : Average value by **Subject_ID** and **Activity** on *tBodyGyroJerk-std()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyAccMag-mean()** : Average value by **Subject_ID** and **Activity** on *tBodyAccMag-mean()* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyAccMag-std()** : Average value by **Subject_ID** and **Activity** on *tBodyAccMag-std()* measure. Field normalized and bounded [-1,1].  <br/>
+- **tGravityAccMag-mean()** : Average value by **Subject_ID** and **Activity** on *tGravityAccMag-mean()* measure. Field normalized and bounded [-1,1].  <br/>
+- **tGravityAccMag-std()** : Average value by **Subject_ID** and **Activity** on *tGravityAccMag-std()* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyAccJerkMag-mean()** : Average value by **Subject_ID** and **Activity** on *tBodyAccJerkMag-mean()* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyAccJerkMag-std()** : Average value by **Subject_ID** and **Activity** on *tBodyAccJerkMag-std()* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyroMag-mean()** : Average value by **Subject_ID** and **Activity** on *tBodyGyroMag-mean()* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyroMag-std()** : Average value by **Subject_ID** and **Activity** on *tBodyGyroMag-std()* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyroJerkMag-mean()** : Average value by **Subject_ID** and **Activity** on *tBodyGyroJerkMag-mean()* measure. Field normalized and bounded [-1,1].  <br/>
+- **tBodyGyroJerkMag-std()** : Average value by **Subject_ID** and **Activity** on *tBodyGyroJerkMag-std()* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAcc-mean()-X** : Average value by **Subject_ID** and **Activity** on *fBodyAcc-mean()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAcc-mean()-Y** : Average value by **Subject_ID** and **Activity** on *fBodyAcc-mean()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAcc-mean()-Z** : Average value by **Subject_ID** and **Activity** on *fBodyAcc-mean()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAcc-std()-X** : Average value by **Subject_ID** and **Activity** on *fBodyAcc-std()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAcc-std()-Y** : Average value by **Subject_ID** and **Activity** on *fBodyAcc-std()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAcc-std()-Z** : Average value by **Subject_ID** and **Activity** on *fBodyAcc-std()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAcc-meanFreq()-X** : Average value by **Subject_ID** and **Activity** on *fBodyAcc-meanFreq()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAcc-meanFreq()-Y** : Average value by **Subject_ID** and **Activity** on *fBodyAcc-meanFreq()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAcc-meanFreq()-Z** : Average value by **Subject_ID** and **Activity** on *fBodyAcc-meanFreq()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAccJerk-mean()-X** : Average value by **Subject_ID** and **Activity** on *fBodyAccJerk-mean()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAccJerk-mean()-Y** : Average value by **Subject_ID** and **Activity** on *fBodyAccJerk-mean()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAccJerk-mean()-Z** : Average value by **Subject_ID** and **Activity** on *fBodyAccJerk-mean()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAccJerk-std()-X** : Average value by **Subject_ID** and **Activity** on *fBodyAccJerk-std()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAccJerk-std()-Y** : Average value by **Subject_ID** and **Activity** on *fBodyAccJerk-std()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAccJerk-std()-Z** : Average value by **Subject_ID** and **Activity** on *fBodyAccJerk-std()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAccJerk-meanFreq()-X** : Average value by **Subject_ID** and **Activity** on *fBodyAccJerk-meanFreq()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAccJerk-meanFreq()-Y** : Average value by **Subject_ID** and **Activity** on *fBodyAccJerk-meanFreq()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAccJerk-meanFreq()-Z** : Average value by **Subject_ID** and **Activity** on *fBodyAccJerk-meanFreq()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyGyro-mean()-X** : Average value by **Subject_ID** and **Activity** on *fBodyGyro-mean()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyGyro-mean()-Y** : Average value by **Subject_ID** and **Activity** on *fBodyGyro-mean()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyGyro-mean()-Z** : Average value by **Subject_ID** and **Activity** on *fBodyGyro-mean()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyGyro-std()-X** : Average value by **Subject_ID** and **Activity** on *fBodyGyro-std()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyGyro-std()-Y** : Average value by **Subject_ID** and **Activity** on *fBodyGyro-std()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyGyro-std()-Z** : Average value by **Subject_ID** and **Activity** on *fBodyGyro-std()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyGyro-meanFreq()-X** : Average value by **Subject_ID** and **Activity** on *fBodyGyro-meanFreq()-X* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyGyro-meanFreq()-Y** : Average value by **Subject_ID** and **Activity** on *fBodyGyro-meanFreq()-Y* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyGyro-meanFreq()-Z** : Average value by **Subject_ID** and **Activity** on *fBodyGyro-meanFreq()-Z* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAccMag-mean()** : Average value by **Subject_ID** and **Activity** on *fBodyAccMag-mean()* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAccMag-std()** : Average value by **Subject_ID** and **Activity** on *fBodyAccMag-std()* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyAccMag-meanFreq()** : Average value by **Subject_ID** and **Activity** on *fBodyAccMag-meanFreq()* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyBodyAccJerkMag-mean()** : Average value by **Subject_ID** and **Activity** on *fBodyBodyAccJerkMag-mean()* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyBodyAccJerkMag-std()** : Average value by **Subject_ID** and **Activity** on *fBodyBodyAccJerkMag-std()* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyBodyAccJerkMag-meanFreq()** : Average value by **Subject_ID** and **Activity** on *fBodyBodyAccJerkMag-meanFreq()* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyBodyGyroMag-mean()** : Average value by **Subject_ID** and **Activity** on *fBodyBodyGyroMag-mean()* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyBodyGyroMag-std()** : Average value by **Subject_ID** and **Activity** on *fBodyBodyGyroMag-std()* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyBodyGyroMag-meanFreq()** : Average value by **Subject_ID** and **Activity** on *fBodyBodyGyroMag-meanFreq()* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyBodyGyroJerkMag-mean()** : Average value by **Subject_ID** and **Activity** on *fBodyBodyGyroJerkMag-mean()* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyBodyGyroJerkMag-std()** : Average value by **Subject_ID** and **Activity** on *fBodyBodyGyroJerkMag-std()* measure. Field normalized and bounded [-1,1].  <br/>
+- **fBodyBodyGyroJerkMag-meanFreq()** : Average value by **Subject_ID** and **Activity** on *fBodyBodyGyroJerkMag-meanFreq()* measure. Field normalized and bounded [-1,1].  <br/>
+- **angle(tBodyAccMean,gravity)** : Average value by **Subject_ID** and **Activity** on *angle(tBodyAccMean,gravity)* measure. Field normalized and bounded [-1,1].  <br/>
+- **angle(tBodyAccJerkMean),gravityMean)** : Average value by **Subject_ID** and **Activity** on *angle(tBodyAccJerkMean),gravityMean)* measure. Field normalized and bounded [-1,1].  <br/>
+- **angle(tBodyGyroMean,gravityMean)** : Average value by **Subject_ID** and **Activity** on *angle(tBodyGyroMean,gravityMean)* measure. Field normalized and bounded [-1,1].  <br/>
+- **angle(tBodyGyroJerkMean,gravityMean)** : Average value by **Subject_ID** and **Activity** on *angle(tBodyGyroJerkMean,gravityMean)* measure. Field normalized and bounded [-1,1].  <br/>
+- **angle(X,gravityMean)** : Average value by **Subject_ID** and **Activity** on *angle(X,gravityMean)* measure. Field normalized and bounded [-1,1].  <br/>
+- **angle(Y,gravityMean)** : Average value by **Subject_ID** and **Activity** on *angle(Y,gravityMean)* measure. Field normalized and bounded [-1,1].  <br/>
+- **angle(Z,gravityMean)** : Average value by **Subject_ID** and **Activity** on *angle(Z,gravityMean)* measure. Field normalized and bounded [-1,1].  <br/>
